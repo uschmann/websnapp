@@ -51,7 +51,6 @@ app.get('/api/screenshot', function (req, res) {
           input: url,
           output: `${config.paths.storage}/${hash}.png`,
           cropH: 1000,
-          cropW: 900,
           cropX:0,
           cropY:0
         };
