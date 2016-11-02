@@ -13,7 +13,7 @@ $docker build -t websnapp:latest .
 $docker run -d -p 8081:80 --name websnapp websnapp
 ```
 
-### Call [HOSTNAME]/api/screenshot?url=[URL]
+### Call http://HOSTNAME/api/screenshot?url=URL
 ```bash
 http://[HOST]:8081/api/screenshot?url=twitter.com
 ```
