@@ -1,5 +1,5 @@
 # websnapp
-Simple microservice to take screenshots websites.
+Experimental microservice to take screenshots of websites.
 
 ## Usage
 
